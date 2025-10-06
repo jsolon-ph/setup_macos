@@ -89,7 +89,7 @@ Examples of IDEs are Visual Studio Code, VSCodium, Cursor
 ```
 brew install gh
 ```
-- verify installaiton with `gh version` 
+- verify installation with `gh version` 
 ## rclone
 - [Rclone](https://rclone.org/) helps you manage files in cloud storage devices
 - To install rclone, paste this in Terminal
@@ -108,7 +108,11 @@ gh auth login
   - For Protocol, choose **HTTPS**
   - Authenticate Git with your GitHub credentials? **Yes**
   - For Authentication Method, choose **Login with a web browser**
-  - This should give you a one time code and proompt you to copy and then Enter to open a browser.
+  - This should give you a one time code which you will be prompted to copy.  Press Enter to open a browser directly to github.  You would need to enter your one-time code (paste it). 
+  - To confirm authentication 
+```
+  gh auth status
+```
   
 ## Configure rclone
 - To follow
